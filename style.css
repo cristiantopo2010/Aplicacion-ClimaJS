@@ -1,0 +1,55 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #00376B;
+    height: 100%;
+    color: #E6F4F1;
+}
+
+.container{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #006394;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px #002F62;
+}
+
+h1, h2, p{
+    color: #E6F4F1;
+}
+
+input[type='text']{
+    padding: 10px;
+    font-size: 15px;
+    width: 70%;
+    border-radius: 10px;
+    border: none;
+    margin: 2%;
+}
+
+button{
+    background-color: #D7A31A;
+    border: none;
+    border-radius: 10px;
+    color: #E6F4F1;
+    cursor: pointer;
+    font-size: 15px;
+    margin: 2%;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    background-color: #E6F4F1;
+    color: #D7A31A;
+}
+
+#responseData{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.reporte{
+    font-style: italic;
+}
